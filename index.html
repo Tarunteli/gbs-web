@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR Global Business Services - Global Employment Solutions</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body> 
+
+
+
+    
+
+
+  <!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+
+    <a href="index.html" class="logo">
+      <img src="/assets/images/logo.png" alt="PRGBS Logo">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+
+      <li class="dropdown">
+        <a href="/services/index.html" class="services-link">
+  Services 
+  <i class="fas fa-chevron-down arrow-icon"></i>
+</a>
+
+        <div class="mega-menu">
+       <a href="/services/business-process-outsourcing.html">Business Process Outsourcing</a>
+  <a href="/services/insurance-domain-services.html">Insurance Domain Services</a>
+  <a href="/services/virtual-employee-services.html">Virtual Employee Services</a>
+  <a href="/services/medical-process-outsourcing.html">Medical Process Outsourcing</a>
+  <a href="/services/data-entry-data-management.html">Data Entry & Data Management</a>
+  <a href="/services/accounting-bookkeeping-support.html">Accounting & Bookkeeping Support</a>
+  <a href="/services/payroll-processing-eor.html">Payroll Processing & EOR</a>
+  <a href="/services/hr-outsourcing.html">HR Outsourcing</a>
+  <a href="/services/data-analysis-lead-tracking.html">Data Analysis & Lead Tracking</a>
+  <a href="/services/end-to-end-operational-support.html">End-to-End Operational Support</a>
+        </div>
+      </li>
+
+      <li><a href="/contact.html" class="nav-cta">Get in touch</a></li>
+    </ul>
+
+    <!-- Hamburger -->
+    <button class="hamburger" onclick="openMenu()">☰</button>
+
+  </div>
+</nav>
+
+<!-- MOBILE LEFT SLIDE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="mobile-header">
+    <img src="/assets/images/logo.png" alt="PRGBS Logo">
+    <span onclick="closeMenu()">✕</span>
+  </div>
+
+  <a href="/index.html">Home</a>
+  <a href="/about.html">About</a>
+
+  <div class="m-dropdown">
+    <div class="m-title" onclick="toggleServices()">
+  Services 
+  <span class="arrow">⌄</span>
+</div>
+    <div class="m-submenu">
+    <a href="/services/business-process-outsourcing.html">Business Process Outsourcing</a>
+  <a href="/services/insurance-domain-services.html">Insurance Domain Services</a>
+  <a href="/services/virtual-employee-services.html">Virtual Employee Services</a>
+  <a href="/services/medical-process-outsourcing.html">Medical Process Outsourcing</a>
+  <a href="/services/data-entry-data-management.html">Data Entry & Data Management</a>
+  <a href="/services/accounting-bookkeeping-support.html">Accounting & Bookkeeping Support</a>
+  <a href="/services/payroll-processing-eor.html">Payroll Processing & EOR</a>
+  <a href="/services/hr-outsourcing.html">HR Outsourcing</a>
+  <a href="/services/data-analysis-lead-tracking.html">Data Analysis & Lead Tracking</a>
+  <a href="/services/end-to-end-operational-support.html">End-to-End Operational Support</a>
+    </div>
+  </div>
+
+  <a href="/contact.html">Contact Us</a>
+
+</div>
+
+
+
+
+
+
+<section class="hero">
+  <div class="hero-container">
+
+    <div class="hero-left">
+ <h1>
+  Transforming <br>
+  Global <br>
+  <span class="dynamic-text">Outsourcing</span> <br>
+  for Modern Businesses
+</h1>
+
+<p>
+  Access world-class Business Process Outsourcing solutions designed to accelerate growth, reduce operational costs, and enhance efficiency. Our experts don’t just manage processes — they drive measurable business impact.
+</p>
+
+
+      <a href="contact.html" class="hero-cta">
+        Talk to us <span>→</span>
+      </a>
+    </div>
+
+    <div class="hero-right">
+     <div class="hero-circle">
+  <canvas id="globeCanvas"></canvas>
+</div>
+
+    </div>
+
+  </div>
+
+  <!-- Stats Card -->
+  <div class="hero-stats">
+    <div class="stat">
+     <h2><span class="counter" data-target="60">0</span>%</h2>
+      <p>Reduction in resource overhead</p>
+    </div>
+    <div class="stat">
+     <h2><span class="counter" data-target="25">0</span>%</h2>
+      <p>Less turnaround time</p>
+    </div>
+    <div class="stat">
+      <h2><span class="counter" data-target="50">0</span>%</h2>
+      <p>Increase in productivity</p>
+    </div>
+    <div class="stat">
+       <h2><span class="counter" data-target="90">0</span>%</h2>
+      <p>Better customer satisfaction</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <p class="trust-text">Trusted by Companies Worldwide</p>
+        <div class="trust-logos">
+            <div class="trust-stat">
+                <div class="trust-number">50+</div>
+                <div class="trust-label">Global Teams Managed</div>
+            </div>
+            <div class="trust-stat">
+                <div class="trust-number">$1k+</div>
+                <div class="trust-label">Payroll Processed</div>
+            </div>
+            <div class="trust-stat">
+                <div class="trust-number">4+</div>
+                <div class="trust-label">Years of Excellence</div>
+            </div>
+        </div>
+    </section>
+<!-- Services Overview -->
+<section class="services-overview">
+    <div class="container">
+
+        <div class="section-header">
+            <div class="section-label">Our Services</div>
+            <div class="gold-line"></div>
+            <h2 class="section-title">Complete Operational Support Solutions</h2>
+            <p class="section-description">
+                We deliver structured outsourcing and operational support services that help businesses 
+                improve efficiency, reduce costs, and scale with confidence.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <h3>Business Process Outsourcing (BPO)</h3>
+                <p>
+                    Streamline business operations by outsourcing repetitive and process-driven tasks 
+                    with structured workflows and performance tracking.
+                </p>
+                <a href="/services/business-process-outsourcing.html">Read More →</a>
+            </div>
+
+            <div class="service-card">
+                <h3>Insurance Domain Services</h3>
+                <p>
+                    Specialized operational support including policy processing, claims coordination, 
+                    accounting assistance, and insurance customer support.
+                </p>
+                <a href="/services/insurance-domain-services.html">Read More →</a>
+            </div>
+
+            <div class="service-card">
+                <h3>Virtual Employee Services</h3>
+                <p>
+                    Dedicated remote professionals who work as part of your internal team, helping you 
+                    scale efficiently without infrastructure expansion.
+                </p>
+                <a href="/services/virtual-employee-services.html">Read More →</a>
+            </div>
+
+            <div class="service-card">
+                <h3>Accounting & Bookkeeping Support</h3>
+                <p>
+                    Maintain accurate financial records, reconciliation, and structured accounting workflows 
+                    to ensure transparency and financial control.
+                </p>
+                <a href="/services/accounting-bookkeeping-support.html">Read More →</a>
+            </div>
+
+            <!-- NEW SERVICE 1 -->
+            <div class="service-card">
+                <h3>Payroll Processing & Employer of Record (EOR)</h3>
+                <p>
+                    Manage payroll, employee benefits, and compliance efficiently while enabling businesses 
+                    to hire and manage global teams without local entity setup.
+                </p>
+                <a href="/services/payroll-processing-eor.html">Read More →</a>
+            </div>
+
+            <!-- NEW SERVICE 2 -->
+            <div class="service-card">
+                <h3>Data Entry & Data Management</h3>
+                <p>
+                    Ensure accurate data processing, verification, and structured information management 
+                    to support reliable reporting and operational efficiency.
+                </p>
+                <a href="/services/data-entry-data-management.html">Read More →</a>
+            </div>
+
+        </div>
+
+        <div class="services-btn-wrapper">
+            <a href="/services/index.html" class="all-services-btn">
+                Check All Services →
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Why PR Global</div>
+                <div class="gold-line"></div>
+                <h2 class="section-title">Your Trusted Global Partner</h2>
+                <p class="section-description">Our compliance-first approach and premium client experience set us apart in the global employment industry.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-number">01</div>
+                    <div class="why-content">
+                        <h3>Compliance Guaranteed</h3>
+                        <p>100% adherence to local labor laws, tax regulations, and employment standards. Our expert legal team ensures you're always protected.</p>
+                    </div>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">02</div>
+                    <div class="why-content">
+                        <h3>Speed & Efficiency</h3>
+                        <p>Hire in new countries within days, not months. Our streamlined processes and global infrastructure accelerate your expansion.</p>
+                    </div>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">03</div>
+                    <div class="why-content">
+                        <h3>Premium Support</h3>
+                        <p>Dedicated account managers and 24/7 expert support ensure your team is always taken care of, no matter the time zone.</p>
+                    </div>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">04</div>
+                    <div class="why-content">
+                        <h3>Technology Platform</h3>
+                        <p>Intuitive dashboard for managing global workforce, payroll, and compliance. Real-time insights at your fingertips.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<section class="testimonials">
+  <div class="section-label">What Our Clients Say</div>
+
+  <div class="testimonial-slider">
+    <div class="testimonial-track">
+
+     <!-- Original 4 Cards -->
+<div class="testimonial-card">
+  <p>
+    "PRGBS helped us streamline our backend operations and significantly improved our overall efficiency. 
+    Their structured approach and reliability make them a valuable operational partner."
+  </p>
+  <h4>David Reynolds</h4>
+  <span>Operations Director, USA</span>
+</div>
+
+<div class="testimonial-card">
+  <p>
+    "Their virtual employee support allowed us to scale our team quickly without infrastructure challenges. 
+    The professionalism and consistency of their team exceeded our expectations."
+  </p>
+  <h4>Priya Malhotra</h4>
+  <span>Business Manager, India</span>
+</div>
+
+<div class="testimonial-card">
+  <p>
+    "PRGBS provided excellent accounting and data management support. Their accuracy, reporting structure, 
+    and operational discipline helped us maintain full financial clarity."
+  </p>
+  <h4>Michael Carter</h4>
+  <span>Finance Head, UK</span>
+</div>
+
+<div class="testimonial-card">
+  <p>
+    "Their insurance process support team improved our turnaround time and workflow efficiency. 
+    We now operate with greater speed, accuracy, and confidence."
+  </p>
+  <h4>Sophia Williams</h4>
+  <span>Insurance Operations Manager, Canada</span>
+</div>
+
+
+<!-- Duplicate (for seamless loop) -->
+<div class="testimonial-card">
+  <p>
+    "PRGBS helped us streamline our backend operations and significantly improved our overall efficiency. 
+    Their structured approach and reliability make them a valuable operational partner."
+  </p>
+  <h4>David Reynolds</h4>
+  <span>Operations Director, USA</span>
+</div>
+
+<div class="testimonial-card">
+  <p>
+    "Their virtual employee support allowed us to scale our team quickly without infrastructure challenges. 
+    The professionalism and consistency of their team exceeded our expectations."
+  </p>
+  <h4>Priya Malhotra</h4>
+  <span>Business Manager, India</span>
+</div>
+
+<div class="testimonial-card">
+  <p>
+    "PRGBS provided excellent accounting and data management support. Their accuracy, reporting structure, 
+    and operational discipline helped us maintain full financial clarity."
+  </p>
+  <h4>Michael Carter</h4>
+  <span>Finance Head, UK</span>
+</div>
+
+<div class="testimonial-card">
+  <p>
+    "Their insurance process support team improved our turnaround time and workflow efficiency. 
+    We now operate with greater speed, accuracy, and confidence."
+  </p>
+  <h4>Sophia Williams</h4>
+  <span>Insurance Operations Manager, Canada</span>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    
+
+   <!-- CONTACT SECTION -->
+<section class="contact-section">
+
+  <div class="contact-container">
+
+    <div class="contact-header">
+      <h2>Talk to our experts</h2>
+      <p>Need immediate assistance? Our team is ready to help. Fill out the form below to connect.</p>
+    </div>
+<form id="contactForm" action="https://formspree.io/f/xjgebnre" method="POST" class="contact-form">
+
+
+  <div class="form-grid">
+
+    <input type="text" name="name" placeholder="Name" required>
+
+    <input type="email" name="email" placeholder="Email Address" required>
+
+    <input type="tel" name="mobile" placeholder="Mobile Number" required>
+
+    <input type="text" name="company" placeholder="Company Name">
+
+    <input type="text" name="country" placeholder="Country">
+
+    <!-- Services Dropdown -->
+    <select name="service" required>
+      <option value="" disabled selected>Select Service</option>
+<option value="/Business Process Outsourcing (BPO)">Business Process Outsourcing (BPO)</option>
+<option value="Insurance Domain Services">Insurance Domain Services</option>
+<option value="Virtual Employee Services">Virtual Employee Services</option>
+<option value="Medical Process Outsourcing (MPO)">Medical Process Outsourcing (MPO)</option>
+<option value="Data Entry & Data Management">Data Entry & Data Management</option>
+<option value="Accounting & Bookkeeping Support">Accounting & Bookkeeping Support</option>
+<option value="Payroll Processing & Employer of Record (EOR)">Payroll Processing & Employer of Record (EOR)</option>
+<option value="HR Outsourcing">HR Outsourcing</option>
+<option value="Data Analysis & Lead Tracking">Data Analysis & Lead Tracking</option>
+<option value="End-to-End Operational Support">End-to-End Operational Support</option>
+
+    </select>
+
+    <textarea name="message" placeholder="Brief Requirement" rows="5" required></textarea>
+
+  </div>
+
+  <button type="submit" class="submit-btn">Submit Now</button>
+
+</form>
+<div id="successPopup" class="popup">
+  Message Sent Successfully
+</div>
+
+
+  </div>
+
+</section>
+
+
+ 
+
+   <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+        <div class="footer-about">
+
+    <img src="/assets/images/logo.png" alt="PRGBS Logo" class="footer-logo">
+
+    <p>
+        Empowering businesses to hire, manage, and pay global teams with complete compliance and confidence.
+    </p>
+
+    <div class="footer-contact">
+        <p><strong>Phone:</strong> +91-8856068849</p>
+        <p><strong>Email:</strong> info@prgbs.com</p>
+    </div>
+
+</div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/services/index.html">Services</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                <li><a href="/services/business-process-outsourcing.html">Business Process Outsourcing</a></li>
+<li><a href="/services/insurance-domain-services.html">Insurance Domain Services</a></li>
+<li><a href="/services/virtual-employee-services.html">Virtual Employee Services</a></li>
+<li><a href="/services/accounting-bookkeeping-support.html">Accounting & Bookkeeping</a></li>
+<li><a href="/services/payroll-processing-eor.html">Payroll Processing</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-section">
+    <h4>Follow Us</h4>
+    <ul class="social-links">
+        <li>
+  <a href="https://www.linkedin.com/company/pr-global-business-services" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+</li>
+
+    </ul>
+</div>
+
+        </div>
+        <div class="footer-bottom">
+    <p>
+        &copy; 2026 PR Global Business Services. All rights reserved.  
+        Powered by <a href="https://ruthercloud.com" target="_blank">RutherCloud Solutions</a>
+    </p>
+</div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Widget -->
+<div id="wa-widget">
+
+  <!-- WhatsApp Button -->
+  <div id="wa-button" onclick="toggleWA()">
+    <img src="assets/images/whatsapp.png" alt="WhatsApp">
+  </div>
+
+  <!-- WhatsApp Chat Box -->
+  <div id="wa-box">
+
+    <div class="wa-header">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <img src="assets/images/whatsapp-white.png" class="wa-icon">
+        <span>WhatsApp</span>
+      </div>
+
+      <button class="wa-close" onclick="toggleWA()">✕</button>
+    </div>
+
+    <div class="wa-content">
+
+      <p><strong>Welcome to PR Global Business Services!</strong></p>
+
+      <p>
+        How can we assist you today? Our team is ready to help you with
+        outsourcing, virtual employees, payroll, HR, and operational support.
+      </p>
+
+      <p>
+        Contact us directly on WhatsApp for quick assistance.
+      </p>
+
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/918856068849" target="_blank">
+      Chat on WhatsApp ➤
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Scroll Top Button -->
+<button id="scrollTopBtn" onclick="scrollToTop()">▲</button>
+
+
+
+
+    <script type="module">
+
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.module.js';
+
+const canvas = document.getElementById("globeCanvas");
+
+const scene = new THREE.Scene();
+
+const camera = new THREE.PerspectiveCamera(
+  45,
+  canvas.clientWidth / canvas.clientHeight,
+  0.1,
+  1000
+);
+
+const renderer = new THREE.WebGLRenderer({
+  canvas,
+  alpha: true,
+  antialias: true
+});
+
+renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+renderer.setPixelRatio(window.devicePixelRatio);
+
+camera.position.z = 3;
+
+// Geometry
+const geometry = new THREE.SphereGeometry(1, 64, 64);
+
+// Better Earth Texture
+const loader = new THREE.TextureLoader();
+const texture = loader.load(
+  "https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg"
+);
+
+const material = new THREE.MeshStandardMaterial({
+  map: texture,
+  roughness: 1,
+  metalness: 0
+});
+
+const globe = new THREE.Mesh(geometry, material);
+scene.add(globe);
+
+// Lighting
+const light = new THREE.DirectionalLight(0xffffff, 1.2);
+light.position.set(5, 3, 5);
+scene.add(light);
+
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
+scene.add(ambientLight);
+
+// Animation
+function animate() {
+  requestAnimationFrame(animate);
+  globe.rotation.y += 0.002;
+  renderer.render(scene, camera);
+}
+animate();
+
+// Resize Fix
+window.addEventListener("resize", () => {
+  const width = canvas.clientWidth;
+  const height = canvas.clientHeight;
+  renderer.setSize(width, height);
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+});
+</script>
+
+
+     <script src="/assets/js/script.js"></script>
+</body>
+</html>
+
+

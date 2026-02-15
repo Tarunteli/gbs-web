@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR Global Business Services - Global Employment Solutions</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body> 
+
+
+
+    
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+
+    <a href="index.html" class="logo">
+      <img src="/assets/images/logo.png" alt="PRGBS Logo">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+
+      <li class="dropdown">
+        <a href="/services/index.html" class="services-link">
+  Services 
+  <i class="fas fa-chevron-down arrow-icon"></i>
+</a>
+
+        <div class="mega-menu">
+           <a href="/services/business-process-outsourcing.html">Business Process Outsourcing</a>
+  <a href="/services/insurance-domain-services.html">Insurance Domain Services</a>
+  <a href="/services/virtual-employee-services.html">Virtual Employee Services</a>
+  <a href="/services/medical-process-outsourcing.html">Medical Process Outsourcing</a>
+  <a href="/services/data-entry-data-management.html">Data Entry & Data Management</a>
+  <a href="/services/accounting-bookkeeping-support.html">Accounting & Bookkeeping Support</a>
+  <a href="/services/payroll-processing-eor.html">Payroll Processing & EOR</a>
+  <a href="/services/hr-outsourcing.html">HR Outsourcing</a>
+  <a href="/services/data-analysis-lead-tracking.html">Data Analysis & Lead Tracking</a>
+  <a href="/services/end-to-end-operational-support.html">End-to-End Operational Support</a>
+        </div>
+      </li>
+
+      <li><a href="/contact.html" class="nav-cta">Get in touch</a></li>
+    </ul>
+
+    <!-- Hamburger -->
+    <button class="hamburger" onclick="openMenu()">☰</button>
+
+  </div>
+</nav>
+
+<!-- MOBILE LEFT SLIDE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="mobile-header">
+    <img src="/assets/images/logo.png" alt="PRGBS Logo">
+    <span onclick="closeMenu()">✕</span>
+  </div>
+
+  <a href="/index.html">Home</a>
+  <a href="/about.html">About</a>
+
+  <div class="m-dropdown">
+    <div class="m-title" onclick="toggleServices()">
+  Services 
+  <span class="arrow">⌄</span>
+</div>
+    <div class="m-submenu">
+  <a href="/services/business-process-outsourcing.html">Business Process Outsourcing</a>
+  <a href="/services/insurance-domain-services.html">Insurance Domain Services</a>
+  <a href="/services/virtual-employee-services.html">Virtual Employee Services</a>
+  <a href="/services/medical-process-outsourcing.html">Medical Process Outsourcing</a>
+  <a href="/services/data-entry-data-management.html">Data Entry & Data Management</a>
+  <a href="/services/accounting-bookkeeping-support.html">Accounting & Bookkeeping Support</a>
+  <a href="/services/payroll-processing-eor.html">Payroll Processing & EOR</a>
+  <a href="/services/hr-outsourcing.html">HR Outsourcing</a>
+  <a href="/services/data-analysis-lead-tracking.html">Data Analysis & Lead Tracking</a>
+  <a href="/services/end-to-end-operational-support.html">End-to-End Operational Support</a>
+    </div>
+  </div>
+
+  <a href="/contact.html">Contact Us</a>
+
+</div>
+
+
+
+
+<section class="contact-hero">
+  <div class="container">
+    <h1>Contact <span>PR Global</span></h1>
+    <p>We’re here to support your business growth. Reach out to us anytime.</p>
+  </div>
+</section>
+
+
+<section class="contact-info-section">
+  <div class="container contact-info-grid">
+
+    <div class="contact-info-card">
+      <h4>Call Us</h4>
+      <p>+91 8856068849</p>
+    </div>
+
+    <div class="contact-info-card">
+      <h4>Email Us</h4>
+      <p>info@prgbs.com</p>
+    </div>
+<a href="https://www.linkedin.com/company/pr-global-business-services" 
+   target="_blank" 
+   class="contact-info-card linkedin-card">
+
+  <h4><i class="fab fa-linkedin"></i> Connect on LinkedIn</h4>
+  <p>Follow us for updates & insights</p>
+
+</a>
+
+
+  </div>
+</section>
+
+
+
+
+   <!-- CONTACT SECTION -->
+<section class="contact-section">
+
+  <div class="contact-container">
+
+    <div class="contact-header">
+      <h2>Talk to our experts</h2>
+      <p>Need immediate assistance? Our team is ready to help. Fill out the form below to connect.</p>
+    </div>
+<form id="contactForm" action="https://formspree.io/f/xjgebnre" method="POST" class="contact-form">
+
+
+  <div class="form-grid">
+
+    <input type="text" name="name" placeholder="Name" required>
+
+    <input type="email" name="email" placeholder="Email Address" required>
+
+    <input type="tel" name="mobile" placeholder="Mobile Number" required>
+
+    <input type="text" name="company" placeholder="Company Name">
+
+    <input type="text" name="country" placeholder="Country">
+
+    <!-- Services Dropdown -->
+    <select name="service" required>
+      <option value="" disabled selected>Select Service</option>
+<option value="/Business Process Outsourcing (BPO)">Business Process Outsourcing (BPO)</option>
+<option value="Insurance Domain Services">Insurance Domain Services</option>
+<option value="Virtual Employee Services">Virtual Employee Services</option>
+<option value="Medical Process Outsourcing (MPO)">Medical Process Outsourcing (MPO)</option>
+<option value="Data Entry & Data Management">Data Entry & Data Management</option>
+<option value="Accounting & Bookkeeping Support">Accounting & Bookkeeping Support</option>
+<option value="Payroll Processing & Employer of Record (EOR)">Payroll Processing & Employer of Record (EOR)</option>
+<option value="HR Outsourcing">HR Outsourcing</option>
+<option value="Data Analysis & Lead Tracking">Data Analysis & Lead Tracking</option>
+<option value="End-to-End Operational Support">End-to-End Operational Support</option>
+    </select>
+
+    <textarea name="message" placeholder="Brief Requirement" rows="5" required></textarea>
+
+  </div>
+
+  <button type="submit" class="submit-btn">Submit Now</button>
+
+</form>
+<div id="successPopup" class="popup">
+  Message Sent Successfully
+</div>
+
+
+  </div>
+
+</section>
+
+
+
+
+
+<!-- WhatsApp Widget -->
+<div id="wa-widget">
+
+  <!-- WhatsApp Button -->
+  <div id="wa-button" onclick="toggleWA()">
+    <img src="assets/images/whatsapp.png" alt="WhatsApp">
+  </div>
+
+  <!-- WhatsApp Chat Box -->
+  <div id="wa-box">
+
+    <div class="wa-header">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <img src="assets/images/whatsapp-white.png" class="wa-icon">
+        <span>WhatsApp</span>
+      </div>
+
+      <button class="wa-close" onclick="toggleWA()">✕</button>
+    </div>
+
+    <div class="wa-content">
+
+      <p><strong>Welcome to PR Global Business Services!</strong></p>
+
+      <p>
+        How can we assist you today? Our team is ready to help you with
+        outsourcing, virtual employees, payroll, HR, and operational support.
+      </p>
+
+      <p>
+        Contact us directly on WhatsApp for quick assistance.
+      </p>
+
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/918856068849" target="_blank">
+      Chat on WhatsApp ➤
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Scroll Top Button -->
+<button id="scrollTopBtn" onclick="scrollToTop()">▲</button>
+
+
+
+
+   <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+        <div class="footer-about">
+
+    <img src="/assets/images/logo.png" alt="PRGBS Logo" class="footer-logo">
+
+    <p>
+        Empowering businesses to hire, manage, and pay global teams with complete compliance and confidence.
+    </p>
+
+    <div class="footer-contact">
+        <p><strong>Phone:</strong> +91-8856068849</p>
+        <p><strong>Email:</strong> info@prgbs.com</p>
+    </div>
+
+</div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/services/index.html">Services</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                <li><a href="/services/business-process-outsourcing.html">Business Process Outsourcing</a></li>
+<li><a href="/services/insurance-domain-services.html">Insurance Domain Services</a></li>
+<li><a href="/services/virtual-employee-services.html">Virtual Employee Services</a></li>
+<li><a href="/services/accounting-bookkeeping-support.html">Accounting & Bookkeeping</a></li>
+<li><a href="/services/payroll-processing-eor.html">Payroll Processing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+    <h4>Follow Us</h4>
+    <ul class="social-links">
+        <li>
+  <a href="https://www.linkedin.com/company/pr-global-business-services" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+</li>
+
+    </ul>
+</div>
+
+        </div>
+          <div class="footer-bottom">
+    <p>
+        &copy; 2026 PR Global Business Services. All rights reserved.  
+        Powered by <a href="https://ruthercloud.com" target="_blank">RutherCloud Solutions</a>
+    </p>
+</div>
+    </footer>
+
+
+
+
+         <script src="assets/js/script.js"></script>
+</body>
+</html>
